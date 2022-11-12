@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<meta name="google-signin-client_id"
+		content="221518112526-83m9fn4qse4rfi7tm0dkvjh6qlftl7qd.apps.googleusercontent.com">
+	<title></title>
+	<link rel="stylesheet" href="registerationcss.css" />
+	<script type="text/javascript" src="registerationscript.js"></script>
+	<script src="https://kit.fontawesome.com/ab849647da.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+	<script src="sigingoogle.js"></script>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<section>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="color"></div>
+		<div class="box">
+			<div class="square" style="-i: 0"></div>
+			<div class="square" style="-i: 1"></div>
+			<div class="square" style="-i: 2"></div>
+			<div class="square" style="-i: 3"></div>
+			<div class="square" style="-i: 4"></div>
+			<div class="container">
+				<div class="form">
+					<h2>Registration</h2>
+					<form onsubmit="return validation()" action="Login" method="post">
+						<div class="inputbox">
+
+							<input id="firstname" type="text" placeholder="First Name" name="firstname">
+						</div>
+						<div class="inputbox">
+
+							<input id="lastname" type="text" placeholder="Last Name" name="lastname">
+						</div>
+						<div class="inputbox">
+
+							<input id="email" type="text" placeholder="Your Email" required name="email">
+						</div>
+						<div class="inputbox">
+
+							<input id="password" type="password" placeholder="Password" required name="password">
+						</div>
+						<div class="inputbox">
+
+							<input id="confrimpassword" type="password" placeholder="Confrim Your Password" required
+								name="confrimpassword">
+						</div>
+						<div class="inputbox">
+
+							<input id="dateofbirth" type="date" placeholder="Date Of Birth" required name="dateofbirth">
+						</div>
+						<div class="inputbox">
+							<input id="mobile" type="text" placeholder="Mobile Number" required name="mobile">
+						</div>
+						<div class="inputbox">
+							<input onclick="validation()" type="submit" value="Register">
+						</div>
+						<p class="forget">Login Using Social Accounts</p>
+						<div class="social">
+							<a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1542879895%3A1668070630331798&continue=https%3A%2F%2Fwww.google.co.in%2F&ec=GAZAmgQ&hl=en&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAs7-zXi7RBnL7iQAB8wpX5ZIm4tyHlhsyG7ul7P-ONgOR2srHsJBOcxYc3XgiYRy8Wvf47gaQ"
+								target="_blank">
+								<i class="fa-brands fa-google fa-2xl"></i>Login with Google</a>
+							<a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY4MDYzMTEwLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"
+								target="_blank">
+								<i class="fa-brands fa-facebook-f  fa-2xl"></i>Login with Facebook</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+</html>
