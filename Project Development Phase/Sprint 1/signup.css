@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Quicksand";
+  }
+  #user {
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 10%;
+    right: 35%;
+    border: 2px solid #ccc;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0%;
+  
+    font-size: large;
+    color: whitesmoke;
+    border-radius: 5px;
+  }
+  body {
+    background-color: rgba(0, 0, 0, 0.788);
+  }
+  #Login {
+    font-size: large;
+    top: 10%;
+    padding-left: 10px;
+    color: whitesmoke;
+  }
+  
+  .btn_css:hover {
+    background-color: rgba(128, 128, 128, 0.884);
+  }
+  
+  label {
+    width: 250px;
+    display: inline;
+    width: 50%;
+    border-radius: 5px;
+    font-size: x-large;
+  }
+  input {
+    width: 400px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    margin-top: 4px;
+    outline: none;
+    padding-left: 8px;
+  }
+  
+  input[type="submit"] {
+    width: 120px;
+    height: 35px;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    margin-left: 100px;
+  }
+  
+  input[type="button"] {
+    width: 120px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 7px;
+  }
